@@ -55,7 +55,7 @@ def main():
     print("Monitoring files for changes...\n")
 
     # Files to monitor (Update this list with your file paths).
-    file_to_monitor = ['example.txt', 'sample.exe', 'kali-linux-2025.1a-vmware-amd64.7z']
+    file_to_monitor = ['example.txt', 'kali-linux-2025.1a-vmware-amd64.7z']
 
     hash_file = 'hashes.txt'
     saved_hashes = load_hashes(hash_file)
